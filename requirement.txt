@@ -1,0 +1,15 @@
+torch==2.2.0+cu121
+transformers==4.46.1
+numpy==2.0.2
+pandas==2.2.3
+scikit-learn==1.5.2
+tqdm==4.66.5
+safetensors==0.4.5
+tritonclient==2.42.0
+triton-python-backend-utils==2.42.0
+bitsandbytes==0.44.1
+accelerate==1.1.0
+peft==0.7.1
+optimum==1.23.3
+onnxruntime-gpu==1.20.0
+cuda-python==12.6.2
