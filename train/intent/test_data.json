@@ -1,0 +1,4456 @@
+{
+  "test_data": [
+    {
+      "query": "allergies to check?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "order is taking long?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how long for catering?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is sushi roll gluten-free?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "nearest metro station?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "any recommendations from kids menu?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how long for party order?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do i need to pay now?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is chicken curry for one person?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do i need a reservation?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can you customize the chicken curry?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is area safe at night?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "when are you busy?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is the owner here?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is your Indian spicy?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is there parking?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "issue with my booking?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "when do you close?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "weather forecast today?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can you customize the pasta?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "service charge included?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how authentic is your Vietnamese?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is there wheelchair access?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "best time to come?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "price for pasta?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "any discounts today?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "any nuts in fried rice?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i order for later?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do you take gift card?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "where's my order?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "portion size for chicken curry?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do you accept PayPal?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "show me some halal options?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "table for large group tonight?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can you customize the pad thai?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is my order ready?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "what are the lunch specials?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "need help with my order?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do you accept debit card?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how authentic is your Thai?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can you customize the sushi roll?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "got space for 6?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "price for burger?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "any nuts in pizza?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "which French dish should i try?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i order takeout?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is area safe at night?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "what comes with fried rice?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can we split the bill?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "tourist spots nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how authentic is your Thai?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "allergies to check?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i get a booth?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "best time to come?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how to cancel my order?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "pizza good for sharing?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "allergies to check?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "price for noodle soup?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do i need to pay now?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how to cancel my order?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "reservation for friday night?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do you have outdoor seating?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how spicy is your noodle soup?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "good hotels around here?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how late are you open?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "call taxi please?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how late are you open?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "what's your specialty?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is area safe at night?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "portion size for pad thai?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do you have outdoor seating?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "any discounts today?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "good hotels around here?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i modify my booking?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "need help with my order?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i book for large group?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how much is the deposit?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "need a table for date?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i add to my order?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "where are you located?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i see your dessert menu?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "issue with my booking?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "any discounts today?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i modify my booking?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "order is taking long?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is the owner here?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "best time to come?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can we split the bill?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is there baby changing?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "good hotels around here?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is my order ready?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "food is cold?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i speak to manager?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "other restaurants nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "missing items in order?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "issue with my booking?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "minimum order for delivery?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is steak for one person?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "need help with my order?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "need a table for celebration?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "where can i park?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i pay online?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is my order ready?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how to cancel my order?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do you deliver to campus area?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do you deliver to business district?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "when are you busy?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do you accept debit card?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do you have bar?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "reservation for saturday evening?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "pizza good for sharing?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "tourist spots nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is chef Thai?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "what's your rating?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i modify my booking?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "good hotels around here?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "when are you busy?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "got space for 10?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "allergies to check?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "any events today?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is the owner here?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is chicken curry for one person?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "portion size for sushi roll?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "are you on uber eats?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is area safe at night?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "wrong order received?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "are your French dishes authentic?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i see your dessert menu?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i get sushi roll dairy-free?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is chef Japanese?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do you take debit card?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "what comes in the value meal?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how long for catering?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how long have you been open?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "what's good on the kids menu?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can you do business meeting?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "any events today?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is area safe at night?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is there smoking area?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "minimum order for delivery?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do you accept Apple Pay?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "any shops nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is pad thai popular?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i pay online?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how late are you open?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i get noodle soup nut-free?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "when do you close?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "dietary restrictions?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i speak to manager?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "what's in the chicken curry?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is there a minimum charge?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "got space for 10?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "minimum order for delivery?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can we split the bill?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "price for chicken curry?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i order takeout?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "dietary restrictions?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is there parking?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i get a booth?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i get sushi roll vegan?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do you deliver to business district?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how late are you open?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do you deliver to campus area?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do you have outdoor seating?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "do you have South style Mexican?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "dietary restrictions?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is there a minimum charge?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is fried rice for one person?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "portion size for steak?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how spicy is your pizza?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how authentic is your French?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "card machine working?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is pasta homemade?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "other restaurants nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how's your Japanese food?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is chef Korean?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i order for later?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "order is taking long?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "when are you busy?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "weather forecast today?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "minimum order for delivery?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "where's the atm?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "need help with my order?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how spicy is your pad thai?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how's your Chinese food?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "any recommendations from drinks menu?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i get pizza gluten-free?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is fish and chips on the menu?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "how's your Italian food?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "any entertainment tonight?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "when are you busy?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "any entertainment tonight?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "is chef Vietnamese?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i book for 4?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "when do you close?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "what's your rating?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "delivery time to campus area?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "tourist spots nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "tourist spots nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i add to my order?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "can i book for large group?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i add to my order?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is area safe at night?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what's in the noodle soup and what's your specialty?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "GENERAL"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how to cancel my order and need help with my order?",
+      "intents": [
+        "ORDER_RELATED",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "reservation for friday night and need help with my order?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i get noodle soup gluten-free and how to cancel my order?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can you do large group?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "dietary restrictions and when are you busy?",
+      "intents": [
+        "SERVICE_RELATED",
+        "GENERAL"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do you have Italian dishes on the menu?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "where's the atm?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i book for 2?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "minimum order for delivery and how's your French food?",
+      "intents": [
+        "ORDER_RELATED",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i add to my order?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "any nuts in steak and nearest metro station?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i pay online and can i book for 4?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do you accept Google Pay?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "table for 2 tonight?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "private room available?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "need help with my order and do you have outdoor seating?",
+      "intents": [
+        "SERVICE_RELATED",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "are you on uber eats?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "need help with my order and reservation for tonight?",
+      "intents": [
+        "SERVICE_RELATED",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is pad thai for one person and is area safe at night?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "allergies to check and which Chinese dish should i try?",
+      "intents": [
+        "SERVICE_RELATED",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i order for later and any entertainment tonight?",
+      "intents": [
+        "ORDER_RELATED",
+        "GENERAL"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is burger for one person?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is pasta vegetarian?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is your Indian spicy?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "which Indian dish should i try and do you accept PayPal?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "minimum order for delivery and can i get a booth?",
+      "intents": [
+        "ORDER_RELATED",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "tourist spots nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how authentic is your Korean?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "food is cold?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is there parking?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "allergies to check and other restaurants nearby?",
+      "intents": [
+        "SERVICE_RELATED",
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is the owner here and card machine working?",
+      "intents": [
+        "GENERAL",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "any events today?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i modify my booking?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "are your Mexican dishes authentic?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how late are you open?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "price for steak?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "weather forecast today?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "allergies to check and how busy is it right now?",
+      "intents": [
+        "SERVICE_RELATED",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "any recommendations from kids menu?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is your Vietnamese spicy and need a table for celebration?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "card machine working and is fish and chips fresh?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is noodle soup for one person and do you accept gift card?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what's your specialty and can i book for 6?",
+      "intents": [
+        "GENERAL",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "weather forecast today and can i book for 4?",
+      "intents": [
+        "NON_RELATED",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do i need a reservation?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is chef Korean and can i speak to manager?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how much is the deposit?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "service charge included?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "price for pad thai?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i bring food?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how long for takeout?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "price for fish and chips?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how long for party order?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is there parking?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do you have Chinese dishes on the menu and can i get chicken curry nut-free?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is my order ready and do you take debit card?",
+      "intents": [
+        "ORDER_RELATED",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "delivery time to campus area?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "missing items in order and any nuts in pizza?",
+      "intents": [
+        "SERVICE_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what's in the burger?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do i need to pay now?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "card machine working and wrong order received?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "which Thai dish should i try and can i pay online?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do you have Italian dishes on the menu?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what's your specialty and minimum order for delivery?",
+      "intents": [
+        "GENERAL",
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "best time to come and can i pay online?",
+      "intents": [
+        "GENERAL",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what are the weekend specials?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "missing items in order and how busy is it right now?",
+      "intents": [
+        "SERVICE_RELATED",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "price for fried rice and what's your best Mediterranean dish?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i add to my order?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how late are you open?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "wrong order received?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do you take debit card?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what are the dinner specials and do i need a reservation?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "which French dish should i try?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "nearest metro station and need special assistance?",
+      "intents": [
+        "NON_RELATED",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do you have outdoor seating?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is the owner here?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i see your dessert menu?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is there wifi?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "show me some vegan options?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can you make Vietnamese food mild?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i see your special menu?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "weather forecast today?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "other restaurants nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what's your best Vietnamese dish?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "issue with my booking?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "which Italian dish should i try?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i order for later?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "delivery time to west side?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "wrong order received and what's your best Vietnamese dish?",
+      "intents": [
+        "SERVICE_RELATED",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "reservation for saturday evening and how to cancel my order?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is there parking and what comes in the set menu?",
+      "intents": [
+        "ENQUIRY_RESTAURANT",
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what comes in the set menu?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i get a booth?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do you cater and are your Mediterranean dishes authentic?",
+      "intents": [
+        "GENERAL",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "table for 4 tonight?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is there wifi?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i get a booth and any nuts in fish and chips?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can you make Italian food extra spicy?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what are the breakfast specials?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how busy is it right now?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i book for 6 and show me some gluten-free options?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "where are you located and can i pay online?",
+      "intents": [
+        "ENQUIRY_RESTAURANT",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "card machine working?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "wrong order received?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do you deliver to uptown and do you take Apple Pay?",
+      "intents": [
+        "ORDER_RELATED",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "any events today and is there parking?",
+      "intents": [
+        "GENERAL",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is there a minimum charge and can you make Vietnamese food not spicy?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "good hotels around here and is there a minimum charge?",
+      "intents": [
+        "NON_RELATED",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "reservation for friday night?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "tourist spots nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "when do you close?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "dietary restrictions?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "when do you close?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "need help with my order and is area safe at night?",
+      "intents": [
+        "SERVICE_RELATED",
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "where are you located?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "any shops nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is your Indian spicy?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how authentic is your Chinese?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how long for takeout?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "are you on uber eats?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i get a booth?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how spicy is your steak?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i bring food?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what are the lunch specials?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "when do you close?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can we split the bill and can i get fish and chips dairy-free?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "weather forecast today?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "any nuts in sushi roll and any events today?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "GENERAL"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "any nuts in burger?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "portion size for pasta and where's the atm?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how to cancel my order?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how long for party order?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do you have bar?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "wrong order received?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i see your kids menu and are you on uber eats?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "GENERAL"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how to cancel my order and can i get pasta vegan?",
+      "intents": [
+        "ORDER_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "any shops nearby and what are the today's specials?",
+      "intents": [
+        "NON_RELATED",
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do i need a reservation?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "nearest metro station?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "need help with my order?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "reservation for weekend and how busy is it right now?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "allergies to check?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "weather forecast today?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "allergies to check?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "weather forecast today and are your Vietnamese dishes authentic?",
+      "intents": [
+        "NON_RELATED",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is pad thai for one person?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "show me some vegan options?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what comes in the family meal?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how late are you open?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "show me some gluten-free options?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do you cater?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do you cater?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "price for chicken curry?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do you have wifi?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "other restaurants nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i bring gifts?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "any entertainment tonight and where's my order?",
+      "intents": [
+        "GENERAL",
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is my order ready?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what's your specialty and are your Japanese dishes authentic?",
+      "intents": [
+        "GENERAL",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "price for pasta?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i get a booth?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can we split the bill and do i need a reservation?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "do you have North style Mediterranean?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "delivery time to east side?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "when are you busy?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what's on the cocktail menu?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is burger vegetarian?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i see your drinks menu and can you customize the pizza?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "weather forecast today and missing items in order?",
+      "intents": [
+        "NON_RELATED",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what's your best Indian dish?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how spicy is your pasta?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "wrong order received?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "any entertainment tonight and is there high chairs?",
+      "intents": [
+        "GENERAL",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is your French spicy?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "tourist spots nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is chicken curry gluten-free and do you cater?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "GENERAL"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "card machine working and any recommendations from dessert menu?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "private room available?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "where's my order?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "minimum order for delivery?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i modify my booking and are your Indian dishes authentic?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "minimum order for delivery?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what comes with fried rice?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "card machine working?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "delivery time to business district?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "is fish and chips for one person and need a table for business lunch?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "how long have you been open and can i bring food?",
+      "intents": [
+        "GENERAL",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "delivery time to west side?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "order is taking long?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i modify my booking?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "price for steak?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "any shops nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "what's your specialty?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "which Thai dish should i try?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "can i modify my booking, call taxi please and any events today?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "NON_RELATED",
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "other restaurants nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what are the lunch specials, do you accept Apple Pay and is my order ready?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "PAYMENT_RELATED",
+        "ORDER_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "any nuts in burger?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "need help with my order and how much is the deposit?",
+      "intents": [
+        "SERVICE_RELATED",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you cater?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you have outdoor seating and how long have you been open?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is there parking, can i order pickup and how much is the deposit?",
+      "intents": [
+        "ENQUIRY_RESTAURANT",
+        "ORDER_RELATED",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "any events today, is area safe at night and card machine working?",
+      "intents": [
+        "GENERAL",
+        "NON_RELATED",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how long for pickup?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do i need to pay now and got space for 10?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i modify my booking and do you accept debit card?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can you make Mediterranean food mild?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how spicy is your steak?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is there wheelchair access?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "food is cold?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "tourist spots nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "reservation for tonight?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you deliver to business district, got space for 6 and are you on uber eats?",
+      "intents": [
+        "ORDER_RELATED",
+        "RESERVATION_RELATED",
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i get sushi roll gluten-free, when do you close and any entertainment tonight?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "ENQUIRY_RESTAURANT",
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what's your best Italian dish, is fish and chips for one person and can i speak to manager?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "ENQUIRY_DISH",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "where's my order, any recommendations from drinks menu and how long have you been open?",
+      "intents": [
+        "ORDER_RELATED",
+        "ENQUIRY_MENU",
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is sushi roll for one person, can i add to my order and do you have Central style Chinese?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "ORDER_RELATED",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is your Mexican spicy?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "tourist spots nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "card machine working?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do i need a reservation?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how late are you open?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i order delivery?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "order is taking long, where's my order and what comes in the dinner combo?",
+      "intents": [
+        "SERVICE_RELATED",
+        "ORDER_RELATED",
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "other restaurants nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i pay online and is your Mexican spicy?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "which Indian dish should i try and is there parking?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is there parking, good hotels around here and how spicy is your burger?",
+      "intents": [
+        "ENQUIRY_RESTAURANT",
+        "NON_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i order delivery and reservation for tomorrow?",
+      "intents": [
+        "ORDER_RELATED",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how much is the deposit?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you deliver to campus area, do you have Italian dishes on the menu and private room available?",
+      "intents": [
+        "ORDER_RELATED",
+        "ENQUIRY_MENU",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "tourist spots nearby and table for 8 tonight?",
+      "intents": [
+        "NON_RELATED",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "which Mexican dish should i try?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how to cancel my order and is area safe at night?",
+      "intents": [
+        "ORDER_RELATED",
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "price for pad thai, missing items in order and where can i park?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "SERVICE_RELATED",
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "missing items in order?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "service charge included?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you take PayPal and delivery time to campus area?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "ORDER_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "reservation for tonight and do you have parking?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "call taxi please?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you cater, how long for takeout and is steak gluten-free?",
+      "intents": [
+        "GENERAL",
+        "ORDER_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how authentic is your Italian and is my order ready?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "ORDER_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how authentic is your Mediterranean?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "are your Korean dishes authentic and how long have you been open?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how long is the wait?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how's your French food and missing items in order?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "where can i park and allergies to check?",
+      "intents": [
+        "NON_RELATED",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "issue with my booking, do you take Apple Pay and what's your rating?",
+      "intents": [
+        "SERVICE_RELATED",
+        "PAYMENT_RELATED",
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can we split the bill?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "card machine working, can i add to my order and allergies to check?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "ORDER_RELATED",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "any nuts in steak, got space for 10 and can we split the bill?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "RESERVATION_RELATED",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "which Italian dish should i try, nearest metro station and can i get a booth?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "NON_RELATED",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "good hotels around here and card machine working?",
+      "intents": [
+        "NON_RELATED",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i book for 4?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i bring decorations?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you cater?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "when do you close?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i book for 10, how to cancel my order and any discounts today?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "ORDER_RELATED",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how late are you open?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "which Thai dish should i try?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "good hotels around here and card machine working?",
+      "intents": [
+        "NON_RELATED",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i order for later?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "are you on uber eats?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "call taxi please and do you cater?",
+      "intents": [
+        "NON_RELATED",
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "pad thai good for sharing?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how busy is it right now?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what's your rating?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "price for sushi roll, issue with my booking and need a table for celebration?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "SERVICE_RELATED",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do i need a reservation?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you cater and do you take Apple Pay?",
+      "intents": [
+        "GENERAL",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you cater and how long for delivery?",
+      "intents": [
+        "GENERAL",
+        "ORDER_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is fried rice popular?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "service charge included, can i order for later and is your French spicy?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "ORDER_RELATED",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "call taxi please and what's good on the drinks menu?",
+      "intents": [
+        "NON_RELATED",
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i pay online and can i modify my booking?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do i need to pay now and dietary restrictions?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "need help with my order, good hotels around here and any discounts today?",
+      "intents": [
+        "SERVICE_RELATED",
+        "NON_RELATED",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is chef Chinese, best time to come and any shops nearby?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "GENERAL",
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can we split the bill, got space for large group and need special assistance?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "RESERVATION_RELATED",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "dietary restrictions and can we split the bill?",
+      "intents": [
+        "SERVICE_RELATED",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how's your Korean food and is there a minimum charge?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how long is the wait and any nuts in burger?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how to cancel my order, can you do private event and can i book for 2?",
+      "intents": [
+        "ORDER_RELATED",
+        "ENQUIRY_RESTAURANT",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "best time to come?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "when do you close, what's on the lunch menu and any discounts today?",
+      "intents": [
+        "ENQUIRY_RESTAURANT",
+        "ENQUIRY_MENU",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "are you on uber eats and where's the atm?",
+      "intents": [
+        "GENERAL",
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is area safe at night and what's your specialty?",
+      "intents": [
+        "NON_RELATED",
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "wrong order received?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "need help with my order, what's your rating and do you have East style Vietnamese?",
+      "intents": [
+        "SERVICE_RELATED",
+        "GENERAL",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what are the today's specials, how spicy is your fried rice and any events today?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "ENQUIRY_DISH",
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how long is the wait?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you cater?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how long is the wait and how much is the deposit?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can you do business meeting?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "good hotels around here?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what's your specialty and what's your best Italian dish?",
+      "intents": [
+        "GENERAL",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can you customize the steak, minimum order for delivery and any shops nearby?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "ORDER_RELATED",
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i modify my booking, how busy is it right now and show me some halal options?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "ENQUIRY_RESTAURANT",
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "service charge included and reservation for tonight?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i speak to manager?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is fried rice for one person?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is chicken curry on the menu, do i need a reservation and private room available?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "ENQUIRY_RESTAURANT",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "need help with my order?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you have outdoor seating, other restaurants nearby and what's in the steak?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "NON_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is there parking, can i modify my booking and portion size for pasta?",
+      "intents": [
+        "ENQUIRY_RESTAURANT",
+        "RESERVATION_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "tourist spots nearby and order is taking long?",
+      "intents": [
+        "NON_RELATED",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how late are you open, dietary restrictions and can you customize the pasta?",
+      "intents": [
+        "ENQUIRY_RESTAURANT",
+        "SERVICE_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i book for 8 and when are you busy?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i book for large group and is area safe at night?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "any shops nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "any entertainment tonight, is there a minimum charge and what's in the noodle soup?",
+      "intents": [
+        "GENERAL",
+        "PAYMENT_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "price for fried rice, do i need to pay now and is chef Korean?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "PAYMENT_RELATED",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do i need to pay now and other restaurants nearby?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "any recommendations from dessert menu and can i get a booth?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is there parking?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is area safe at night?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "are you on uber eats?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you have wifi, private room available and do you cater?",
+      "intents": [
+        "ENQUIRY_RESTAURANT",
+        "RESERVATION_RELATED",
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is chef Korean?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what comes with pasta and when do you close?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is chef Thai, where are you located and can i pay online?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "ENQUIRY_RESTAURANT",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what's good on the dessert menu, do you have South style Korean and is my order ready?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "ENQUIRY_CUISINE",
+        "ORDER_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i pay online?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what comes with chicken curry?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "reservation for friday night?",
+      "intents": [
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "card machine working, good hotels around here and is sushi roll vegetarian?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "NON_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what's your specialty and any nuts in fish and chips?",
+      "intents": [
+        "GENERAL",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is there parking?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i order for later, do i need a reservation and how long have you been open?",
+      "intents": [
+        "ORDER_RELATED",
+        "ENQUIRY_RESTAURANT",
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i order for later and what's on the kids menu?",
+      "intents": [
+        "ORDER_RELATED",
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i get chicken curry halal?",
+      "intents": [
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "tourist spots nearby, can you customize the steak and do i need a reservation?",
+      "intents": [
+        "NON_RELATED",
+        "ENQUIRY_DISH",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "when are you busy?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how authentic is your Italian?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is pasta homemade and is chef French?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "service charge included and good hotels around here?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "where can i park?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what's on the dinner menu, weather forecast today and is your French spicy?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "NON_RELATED",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i order for later?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is there parking?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is area safe at night and is there a minimum charge?",
+      "intents": [
+        "NON_RELATED",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "price for chicken curry?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what's on the special menu and how spicy is your burger?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can you make Italian food medium spicy, is my order ready and can you do large group?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "ORDER_RELATED",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how busy is it right now?",
+      "intents": [
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "any shops nearby, how busy is it right now and what comes with pad thai?",
+      "intents": [
+        "NON_RELATED",
+        "ENQUIRY_RESTAURANT",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you accept credit card?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "good hotels around here, can i add to my order and when do you close?",
+      "intents": [
+        "NON_RELATED",
+        "ORDER_RELATED",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you have parking, tourist spots nearby and price for steak?",
+      "intents": [
+        "ENQUIRY_RESTAURANT",
+        "NON_RELATED",
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "call taxi please?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is area safe at night?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how authentic is your Korean, do you cater and do you have outdoor seating?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "GENERAL",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "which Indian dish should i try?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "any discounts today, can i order takeout and can i bring wine?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "ORDER_RELATED",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is my order ready and good hotels around here?",
+      "intents": [
+        "ORDER_RELATED",
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "are your Thai dishes authentic, is the owner here and do you accept debit card?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "GENERAL",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "any events today, private room available and allergies to check?",
+      "intents": [
+        "GENERAL",
+        "RESERVATION_RELATED",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you have outdoor seating, how's your Mexican food and minimum order for delivery?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "ENQUIRY_CUISINE",
+        "ORDER_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what are the weekend specials?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i add to my order?",
+      "intents": [
+        "ORDER_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what are the today's specials, good hotels around here and got space for 10?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "NON_RELATED",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i order party order and is there high chairs?",
+      "intents": [
+        "ORDER_RELATED",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can you make French food extra spicy and what's on the cocktail menu?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can we split the bill?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can you do business meeting and any nuts in pad thai?",
+      "intents": [
+        "ENQUIRY_RESTAURANT",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "other restaurants nearby?",
+      "intents": [
+        "NON_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can you make Italian food mild, is there wheelchair access and missing items in order?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "ENQUIRY_RESTAURANT",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can you make Korean food extra spicy?",
+      "intents": [
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is pizza on the menu?",
+      "intents": [
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "got space for 2 and what comes with pizza?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how long is the wait and can i get burger vegan?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is the owner here, is pasta on the menu and reservation for saturday evening?",
+      "intents": [
+        "GENERAL",
+        "ENQUIRY_MENU",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what's on the special menu, do you have outdoor seating and can i add to my order?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "RESERVATION_RELATED",
+        "ORDER_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i speak to manager?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you have outdoor seating and how spicy is your pasta?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "is there smoking area, nearest metro station and food is cold?",
+      "intents": [
+        "ENQUIRY_RESTAURANT",
+        "NON_RELATED",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do you take Google Pay, where's the atm and need special assistance?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "NON_RELATED",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can you do private event and show me some vegan options?",
+      "intents": [
+        "ENQUIRY_RESTAURANT",
+        "ENQUIRY_MENU"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do i need to pay now and is chef Korean?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "ENQUIRY_CUISINE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what's your rating?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "do i need to pay now, are your Mediterranean dishes authentic and dietary restrictions?",
+      "intents": [
+        "PAYMENT_RELATED",
+        "ENQUIRY_CUISINE",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "how's your Mexican food and do i need to pay now?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "any entertainment tonight?",
+      "intents": [
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "private room available and can you do large group?",
+      "intents": [
+        "RESERVATION_RELATED",
+        "ENQUIRY_RESTAURANT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "are you on uber eats, where's my order and wrong order received?",
+      "intents": [
+        "GENERAL",
+        "ORDER_RELATED",
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can you do wedding party, got space for 2 and can i order delivery?",
+      "intents": [
+        "ENQUIRY_RESTAURANT",
+        "RESERVATION_RELATED",
+        "ORDER_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "what's in the fish and chips and what's your rating?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "GENERAL"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "card machine working?",
+      "intents": [
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i see your breakfast menu, how long have you been open and can i order for later?",
+      "intents": [
+        "ENQUIRY_MENU",
+        "GENERAL",
+        "ORDER_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can you customize the chicken curry, how busy is it right now and can we split the bill?",
+      "intents": [
+        "ENQUIRY_DISH",
+        "ENQUIRY_RESTAURANT",
+        "PAYMENT_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i speak to manager?",
+      "intents": [
+        "SERVICE_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "are you on uber eats and can i book for 2?",
+      "intents": [
+        "GENERAL",
+        "RESERVATION_RELATED"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "which Mexican dish should i try, can you do wedding party and is fried rice for one person?",
+      "intents": [
+        "ENQUIRY_CUISINE",
+        "ENQUIRY_RESTAURANT",
+        "ENQUIRY_DISH"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "can i bring food, dietary restrictions and minimum order for delivery?",
+      "intents": [
+        "ENQUIRY_RESTAURANT",
+        "SERVICE_RELATED",
+        "ORDER_RELATED"
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

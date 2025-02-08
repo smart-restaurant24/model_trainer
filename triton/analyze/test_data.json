@@ -1,0 +1,7207 @@
+{
+  "data": [
+    {
+      "input_text": "Wine pairing menu 80 dollars-$180 for party of 10, private dining room",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 80,
+          "type": "min_price"
+        },
+        {
+          "value": 180,
+          "type": "max_price"
+        },
+        {
+          "value": 10,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Custom menu for table 22, 5 dietary restrictions, chef's table experience",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 22,
+          "type": "not_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Private room near table 28 for 7 dinner, customized menu",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 7,
+          "type": "not_price"
+        },
+        {
+          "value": 28,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What options do you have between 10-$85?, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "min_price"
+        },
+        {
+          "value": 85,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What wine pairings under 65 go with 5 courses?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "max_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can I get a meal within $180?, walk-in available",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 180,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 17 wants to see specials above USD 42",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 42,
+          "type": "min_price"
+        },
+        {
+          "value": 17,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What specialties do you have over 45?, walk-in available",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 45,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get 2 dishes under 65 each?, business casual",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "max_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Special event menu 38 dollars-USD 50 with 4 courses, special occasion",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        },
+        {
+          "value": 50,
+          "type": "max_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can I get a meal within 22?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 22,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What options do you have between 48 dollars-$90?, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 48,
+          "type": "min_price"
+        },
+        {
+          "value": 90,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What premium dishes over 35 dollars would you recommend for 7?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 35,
+          "type": "min_price"
+        },
+        {
+          "value": 7,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can I get a meal within 20?, for lunch",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What options do you have between $25-USD 150?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 25,
+          "type": "min_price"
+        },
+        {
+          "value": 150,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you combine 22 and {table_num2} for our group?, near the window",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 22,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Any chef's specials over 90 dollars for table 3?, business casual",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 90,
+          "type": "min_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Table 15 wants to see specials above $10, business casual",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "min_price"
+        },
+        {
+          "value": 15,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Special wine pairing for 3 courses at table 19",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 19,
+          "type": "not_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Wine pairing menu 20-28 for party of 6",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "min_price"
+        },
+        {
+          "value": 28,
+          "type": "max_price"
+        },
+        {
+          "value": 6,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can you suggest 4 items over 100?, date night",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "min_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Special event menu 38-100 dollars with 2 courses",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        },
+        {
+          "value": 100,
+          "type": "max_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Could you seat 10 of us?, for tonight",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "We need 2 more plates, with a view",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you arrange 4 course tasting for 3 at table 28?, chef's table experience",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 3,
+          "type": "not_price"
+        },
+        {
+          "value": 28,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What dishes are less than 70 dollars?, walk-in available",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 70,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you arrange 1 course tasting for 2 at table 10?, private dining room",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 2,
+          "type": "not_price"
+        },
+        {
+          "value": 10,
+          "type": "not_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What combos for 6 stay below USD 100?, business casual",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "min_price"
+        },
+        {
+          "value": 6,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Could you seat 15 of us?, near the window",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 15,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Special event menu $48-USD 250 with 1 courses, chef's table experience",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 48,
+          "type": "min_price"
+        },
+        {
+          "value": 250,
+          "type": "max_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can we get 4 dishes under 48 each?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 48,
+          "type": "max_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you suggest 4 items over 65 dollars?, with vegetarian options",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "min_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "I want something more than $38, walk-in available",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 23 wants options under 48 dollars, family dinner",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 48,
+          "type": "max_price"
+        },
+        {
+          "value": 23,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Do you have anything under USD 45?, for tonight",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 45,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get 2 orders of spring rolls?",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you suggest items USD 60-USD 65 for our group?, with vegetarian options",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 60,
+          "type": "min_price"
+        },
+        {
+          "value": 65,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Make that 1 orders, near the window",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Private room near table 28 for 13 dinner, special occasion",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 13,
+          "type": "not_price"
+        },
+        {
+          "value": 28,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What dishes are less than 20?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What 4 course options are available 250 dollars-USD 300?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 250,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can we move our 12 guests to table 6?, with halal options",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 12,
+          "type": "not_price"
+        },
+        {
+          "value": 6,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What 2 course options are available 30 dollars-150 dollars?, chef's table experience",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 30,
+          "type": "min_price"
+        },
+        {
+          "value": 150,
+          "type": "max_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Special event menu USD 35-$100 with 1 courses, private dining room",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 35,
+          "type": "min_price"
+        },
+        {
+          "value": 100,
+          "type": "max_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "For 13 people, what can we get under $35?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 35,
+          "type": "max_price"
+        },
+        {
+          "value": 13,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Special event menu $12-90 with 1 courses",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 12,
+          "type": "min_price"
+        },
+        {
+          "value": 90,
+          "type": "max_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "For our party of 10 at table 8, what sharing platters are under $85?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 85,
+          "type": "max_price"
+        },
+        {
+          "value": 10,
+          "type": "not_price"
+        },
+        {
+          "value": 8,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What dishes are less than 60?, walk-in available",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 60,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get 4 dishes under USD 38 each?, family dinner",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "max_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you combine 22 and {table_num2} for our group?, with a view",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 22,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Could you do 3 premium dishes over 8 dollars for 13?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "min_price"
+        },
+        {
+          "value": 13,
+          "type": "not_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can you show me dishes above 95 dollars?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 95,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "4 of #48 for table 8, business casual",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        },
+        {
+          "value": 48,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "5 servings of the soup please, for tonight",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What's available below USD 75?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 75,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "I'm looking in the 150 dollars to $300 range, for tonight",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 150,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What dishes are less than 95 dollars?, for tonight",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 95,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Special wine pairing for 2 courses at table 24",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 24,
+          "type": "not_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Is item #36 under 8?, business casual",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "max_price"
+        },
+        {
+          "value": 36,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What premium dishes over USD 100 would you recommend for 12?, birthday celebration",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "min_price"
+        },
+        {
+          "value": 12,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What dishes between USD 12-$28 work for sharing?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 12,
+          "type": "min_price"
+        },
+        {
+          "value": 28,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Show us your signature dishes above 70 dollars, business casual",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 70,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What's available below 20?, walk-in available",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can I see items in the USD 65-$250 range?, with a view",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "min_price"
+        },
+        {
+          "value": 250,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What's your best experience over 12 for 8?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 12,
+          "type": "min_price"
+        },
+        {
+          "value": 8,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "We need 2 plates in the USD 200-$300 range, date night",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 200,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What options do you have between $250-USD 300?, for tonight",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 250,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What wine pairings under $25 go with 3 courses?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 25,
+          "type": "max_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can we get a table for 12?",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 12,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you suggest 4 items over 150?, birthday celebration",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 150,
+          "type": "min_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Show table 3 options from 42 dollars to 45 dollars",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 42,
+          "type": "min_price"
+        },
+        {
+          "value": 45,
+          "type": "max_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What can 9 people get between $20-300 dollars?, business casual",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        },
+        {
+          "value": 9,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Table 18 wants to see specials above $28, date night",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 28,
+          "type": "min_price"
+        },
+        {
+          "value": 18,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you suggest 3 items over 8 dollars?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "min_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Could you seat 15 of us?, for lunch",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 15,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What 1 course options are available USD 10-USD 85?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "min_price"
+        },
+        {
+          "value": 85,
+          "type": "max_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What wine pairings under USD 15 go with 1 courses?, wine pairing",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 15,
+          "type": "max_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Could you split table 8 for 5 people?, birthday celebration",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 5,
+          "type": "not_price"
+        },
+        {
+          "value": 8,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Table 16 wants options under $100",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "max_price"
+        },
+        {
+          "value": 16,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "We need 1 plates in the $70-USD 300 range, date night",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 70,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What specialties do you have over 12?, walk-in available",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 12,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Any special items above $10?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What dishes are less than $15?, near the window",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 15,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can I see items in the 22 dollars-USD 90 range?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 22,
+          "type": "min_price"
+        },
+        {
+          "value": 90,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 25 wants to see specials above $28, date night",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 28,
+          "type": "min_price"
+        },
+        {
+          "value": 25,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "I want something more than USD 15, for tonight",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 15,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What dishes between USD 32-180 work for sharing?, family dinner",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "min_price"
+        },
+        {
+          "value": 180,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "4 of #9 for table 21, business casual",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 21,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        },
+        {
+          "value": 9,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can I get a meal within 250 dollars?, for lunch",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 250,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 24 needs 5 extra settings, date night",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 24,
+          "type": "not_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What can you recommend between 250 and $300?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 250,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Show us your signature dishes above $180, with halal options",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 180,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you suggest items 25 dollars-USD 90 for our group?, business casual",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 25,
+          "type": "min_price"
+        },
+        {
+          "value": 90,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What's your best experience over 65 dollars for 12?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "min_price"
+        },
+        {
+          "value": 12,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "I'm looking in the 65 to USD 100 range, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "min_price"
+        },
+        {
+          "value": 100,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you arrange 1 course tasting menu under $50 for 9 people?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 50,
+          "type": "max_price"
+        },
+        {
+          "value": 9,
+          "type": "not_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What can you recommend between $50 and 75 dollars?, walk-in available",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 50,
+          "type": "min_price"
+        },
+        {
+          "value": 75,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Chef's special course above $120 with 2 wines, private dining room",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 120,
+          "type": "min_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can I see items in the USD 30-120 range?, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 30,
+          "type": "min_price"
+        },
+        {
+          "value": 120,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get 3 dishes under 12 each?, date night",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 12,
+          "type": "max_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What specialties do you have over $18?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 18,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What combos for 3 stay below USD 150?, birthday celebration",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 150,
+          "type": "min_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Is table 11 available?, near the window",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 11,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get a table for 11?, for lunch",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 11,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Any special items above USD 300?, with a view",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 300,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "For our party of 3 at table 22, what sharing platters are under $48?, customized menu",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 48,
+          "type": "max_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        },
+        {
+          "value": 22,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "I'll have 5 of the pasta, for tonight",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can I see items in the $48-300 dollars range?, near the window",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 48,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 16 wants options under 28 dollars, with vegan options",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 28,
+          "type": "max_price"
+        },
+        {
+          "value": 16,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What dishes are less than 38 dollars?, with a view",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What premium dishes over 200 dollars would you recommend for 1?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 200,
+          "type": "min_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What dishes between $90-$120 work for sharing?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 90,
+          "type": "min_price"
+        },
+        {
+          "value": 120,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can we get 1 dishes under $32 each?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "max_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Item #19, but split for 4 people, business casual",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 4,
+          "type": "not_price"
+        },
+        {
+          "value": 19,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What 1 course options are available $70-150?, private dining room",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 70,
+          "type": "min_price"
+        },
+        {
+          "value": 150,
+          "type": "max_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Make that 4 orders, with a view",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 20 wants options under $75, birthday celebration",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 75,
+          "type": "max_price"
+        },
+        {
+          "value": 20,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "I'm looking in the USD 100 to $150 range, for tonight",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "min_price"
+        },
+        {
+          "value": 150,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Could you do 5 premium dishes over 40 for 3?, special occasion",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 40,
+          "type": "min_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Custom menu for 2 between 75-USD 95, wine pairing",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 75,
+          "type": "min_price"
+        },
+        {
+          "value": 95,
+          "type": "max_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Special wine pairing for 5 courses at table 13, chef's table experience",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 13,
+          "type": "not_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Could you do 3 premium dishes over 50 for 8?, special occasion",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 50,
+          "type": "min_price"
+        },
+        {
+          "value": 8,
+          "type": "not_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Wine pairing menu USD 180-$300 for party of 13",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 180,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        },
+        {
+          "value": 13,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What dishes are less than 55 dollars?, with a view",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 55,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Any special items above USD 32?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What's your best experience over 55 dollars for 14?, customized menu",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 55,
+          "type": "min_price"
+        },
+        {
+          "value": 14,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Table 8 wants to see specials above $32, birthday celebration",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "min_price"
+        },
+        {
+          "value": 8,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "We need 1 plates in the 42 dollars-45 range, date night",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 42,
+          "type": "min_price"
+        },
+        {
+          "value": 45,
+          "type": "max_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Table 4 needs dietary options for 2 under $180 each, wine pairing",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 180,
+          "type": "max_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Private dining for 4 with 3 courses under 18 dollars",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 18,
+          "type": "max_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What options do you have between 95-300?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 95,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Any chef's specials over 28 dollars for table 10?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 28,
+          "type": "min_price"
+        },
+        {
+          "value": 10,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What options do you have between 90-$200?, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 90,
+          "type": "min_price"
+        },
+        {
+          "value": 200,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can I get a meal within 25?, with a view",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 25,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get a table for 1?",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What combos for 12 stay below 60?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 60,
+          "type": "min_price"
+        },
+        {
+          "value": 12,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you suggest items USD 30-90 for our group?, business casual",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 30,
+          "type": "min_price"
+        },
+        {
+          "value": 90,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Any special items above $38?, walk-in available",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What options do you have between USD 48-150 dollars?, walk-in available",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 48,
+          "type": "min_price"
+        },
+        {
+          "value": 150,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you show me dishes above USD 250?, near the window",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 250,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get 1 orders of spring rolls?, walk-in available",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "I'll have 1 of the pasta",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "We'd like table 8 by the window, walk-in available",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What wine pairings under 8 go with 4 courses?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "max_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What can you recommend between 30 dollars and 42?, with a view",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 30,
+          "type": "min_price"
+        },
+        {
+          "value": 42,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "For table 1, 3 appetizers and {num_portions2} mains, date night",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 1,
+          "type": "not_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Tasting menu between 38-USD 95 for 7 at table 13",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        },
+        {
+          "value": 95,
+          "type": "max_price"
+        },
+        {
+          "value": 7,
+          "type": "not_price"
+        },
+        {
+          "value": 13,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Chef's table for 15 with 1 custom courses",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 15,
+          "type": "not_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What premium dishes are over $45?, for lunch",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 45,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Chef's special course above $100 with 3 wines, wine pairing",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "min_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What combos for 2 stay below 300 dollars?, with vegan options",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 300,
+          "type": "min_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Table 23 needs dietary options for 14 under 100 dollars each, special occasion",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "max_price"
+        },
+        {
+          "value": 14,
+          "type": "not_price"
+        },
+        {
+          "value": 23,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What's available below 28 dollars?, for tonight",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 28,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can I see items in the USD 150-$300 range?, near the window",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 150,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What wine pairings under 15 dollars go with 1 courses?, wine pairing",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 15,
+          "type": "max_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Show me dishes from USD 65 to 80 dollars, with a view",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "min_price"
+        },
+        {
+          "value": 80,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can I get a meal within 150?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 150,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 2 wants options under USD 95",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 95,
+          "type": "max_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Any chef's specials over 65 dollars for table 27?, with vegan options",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "min_price"
+        },
+        {
+          "value": 27,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can I see items in the $150-250 dollars range?, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 150,
+          "type": "min_price"
+        },
+        {
+          "value": 250,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "For our party of 15 at table 18, what sharing platters are under USD 35?, chef's table experience",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 35,
+          "type": "max_price"
+        },
+        {
+          "value": 15,
+          "type": "not_price"
+        },
+        {
+          "value": 18,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Show me dishes from 8 dollars to 40 dollars, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "min_price"
+        },
+        {
+          "value": 40,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get 5 regular and {num_portions2} spicy?, with vegan options",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you combine 3 and {table_num2} for our group?, for tonight",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Show me dishes from $65 to 200 dollars, with a view",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "min_price"
+        },
+        {
+          "value": 200,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Premium tasting menu above 50 for table 2 of 5, customized menu",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 50,
+          "type": "min_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Any chef's specials over 55 for table 7?, business casual",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 55,
+          "type": "min_price"
+        },
+        {
+          "value": 7,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can I see items in the 28 dollars-65 range?, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 28,
+          "type": "min_price"
+        },
+        {
+          "value": 65,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you suggest 5 items over 85 dollars?, date night",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 85,
+          "type": "min_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What options do you have between $20-250 dollars?, for tonight",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "min_price"
+        },
+        {
+          "value": 250,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Chef's special course above 100 with 4 wines",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "min_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Chef's special course above 85 with 4 wines, special occasion",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 85,
+          "type": "min_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "We need 3 more plates, for tonight",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Show me dishes from $8 to $80, near the window",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "min_price"
+        },
+        {
+          "value": 80,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "We need 4 more plates",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 12 wants options under 150 dollars, date night",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 150,
+          "type": "max_price"
+        },
+        {
+          "value": 12,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Item #10, but split for 2 people, date night",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 2,
+          "type": "not_price"
+        },
+        {
+          "value": 10,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "I'll have 4 of the pasta",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "For our party of 14 at table 21, what sharing platters are under 55 dollars?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 55,
+          "type": "max_price"
+        },
+        {
+          "value": 14,
+          "type": "not_price"
+        },
+        {
+          "value": 21,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can you suggest 1 items over $25?, with gluten-free options",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 25,
+          "type": "min_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Could you split table 6 for 10 people?, birthday celebration",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "not_price"
+        },
+        {
+          "value": 6,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Premium tasting menu above 38 for table 27 of 14",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        },
+        {
+          "value": 14,
+          "type": "not_price"
+        },
+        {
+          "value": 27,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Premium tasting menu above 75 for table 9 of 1, special occasion",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 75,
+          "type": "min_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        },
+        {
+          "value": 9,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can I see items in the 90 dollars-180 dollars range?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 90,
+          "type": "min_price"
+        },
+        {
+          "value": 180,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What premium dishes over 10 would you recommend for 4?, business casual",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "min_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you suggest items $48-75 dollars for our group?, date night",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 48,
+          "type": "min_price"
+        },
+        {
+          "value": 75,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Private room near table 16 for 5 dinner",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 5,
+          "type": "not_price"
+        },
+        {
+          "value": 16,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "I'm looking in the USD 85 to USD 180 range, with a view",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 85,
+          "type": "min_price"
+        },
+        {
+          "value": 180,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What specialties do you have over 32?, for tonight",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Premium tasting menu above $18 for table 14 of 2, special occasion",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 18,
+          "type": "min_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        },
+        {
+          "value": 14,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Could you split table 16 for 5 people?, with halal options",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 5,
+          "type": "not_price"
+        },
+        {
+          "value": 16,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Table 10 wants to see specials above 18 dollars, birthday celebration",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 18,
+          "type": "min_price"
+        },
+        {
+          "value": 10,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you arrange 3 course tasting for 10 at table 24?, special occasion",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "not_price"
+        },
+        {
+          "value": 24,
+          "type": "not_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Show us your signature dishes above 32",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What's available below 35 dollars?, with a view",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 35,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "2 servings of the soup please, walk-in available",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "For our party of 12 at table 23, what sharing platters are under 55 dollars?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 55,
+          "type": "max_price"
+        },
+        {
+          "value": 12,
+          "type": "not_price"
+        },
+        {
+          "value": 23,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Table 19 wants options under USD 38",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "max_price"
+        },
+        {
+          "value": 19,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "I'm looking in the 35 dollars to USD 100 range, for tonight",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 35,
+          "type": "min_price"
+        },
+        {
+          "value": 100,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What specialties do you have over 32?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What premium dishes over 100 dollars would you recommend for 13?, business casual",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "min_price"
+        },
+        {
+          "value": 13,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can we move our 9 guests to table 23?, with dairy-free options",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 9,
+          "type": "not_price"
+        },
+        {
+          "value": 23,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What can 15 people get between 20-85 dollars?, family dinner",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "min_price"
+        },
+        {
+          "value": 85,
+          "type": "max_price"
+        },
+        {
+          "value": 15,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Could you seat 4 of us?, with a view",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Could you do 4 premium dishes over 48 dollars for 11?, special occasion",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 48,
+          "type": "min_price"
+        },
+        {
+          "value": 11,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Any chef's specials over USD 200 for table 18?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 200,
+          "type": "min_price"
+        },
+        {
+          "value": 18,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What can you recommend between 95 dollars and 200 dollars?, near the window",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 95,
+          "type": "min_price"
+        },
+        {
+          "value": 200,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "I'm looking in the $22 to USD 85 range",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 22,
+          "type": "min_price"
+        },
+        {
+          "value": 85,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Show table 22 options from 65 to 95 dollars, with halal options",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "min_price"
+        },
+        {
+          "value": 95,
+          "type": "max_price"
+        },
+        {
+          "value": 22,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What can 5 people get between 38-$70?, family dinner",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        },
+        {
+          "value": 70,
+          "type": "max_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Table 26 needs 4 extra settings",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 26,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "We need 1 plates in the 55 dollars-$95 range, date night",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 55,
+          "type": "min_price"
+        },
+        {
+          "value": 95,
+          "type": "max_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you show me dishes above 50 dollars?, for tonight",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 50,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 9 wants to see specials above $90",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 90,
+          "type": "min_price"
+        },
+        {
+          "value": 9,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "For table 2, 4 appetizers and {num_portions2} mains, business casual",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 2,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can I get a meal within 120 dollars?, with a view",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 120,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 10 wants your premium pairing above 10 dollars, special occasion",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "min_price"
+        },
+        {
+          "value": 10,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What options do you have between 22-USD 200?, walk-in available",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 22,
+          "type": "min_price"
+        },
+        {
+          "value": 200,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get a table for 13?, with a view",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 13,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Make that 5 orders, for tonight",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What dishes are less than 42 dollars?, for lunch",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 42,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What specialties do you have over $25?, with a view",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 25,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Do you have anything under 55?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 55,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can I get a meal within $150?, with a view",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 150,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 24 needs dietary options for 10 under 80 each, customized menu",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 80,
+          "type": "max_price"
+        },
+        {
+          "value": 10,
+          "type": "not_price"
+        },
+        {
+          "value": 24,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can I see items in the $100-300 range?, walk-in available",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What wine pairings under USD 35 go with 5 courses?, chef's table experience",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 35,
+          "type": "max_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can you combine tables for 10 near table 4?",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "3 of #38 for table 22, date night",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 22,
+          "type": "not_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        },
+        {
+          "value": 38,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can I get a meal within 150?, for tonight",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 150,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Show me dishes from 22 dollars to $250, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 22,
+          "type": "min_price"
+        },
+        {
+          "value": 250,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "We need 4 plates in the 65 dollars-USD 200 range, with dairy-free options",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "min_price"
+        },
+        {
+          "value": 200,
+          "type": "max_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Is table 27 available?, for tonight",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 27,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Any special items above $60?, for tonight",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 60,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What's your best experience over $38 for 1?, customized menu",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What premium dishes over 90 would you recommend for 6?, date night",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 90,
+          "type": "min_price"
+        },
+        {
+          "value": 6,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What options do you have between USD 95-$150?, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 95,
+          "type": "min_price"
+        },
+        {
+          "value": 150,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get 5 orders of spring rolls?, walk-in available",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get 5 orders of spring rolls?, near the window",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you suggest 5 items over 50 dollars?, with halal options",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 50,
+          "type": "min_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What wine pairings under USD 42 go with 2 courses?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 42,
+          "type": "max_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can you suggest items 100-200 for our group?, with gluten-free options",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "min_price"
+        },
+        {
+          "value": 200,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Private room near table 7 for 3 dinner, wine pairing",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 3,
+          "type": "not_price"
+        },
+        {
+          "value": 7,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "We need high chairs for 4 kids at table 5, family dinner",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 5,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Special wine pairing for 2 courses at table 11, private dining room",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 11,
+          "type": "not_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What combos for 4 stay below 10?, family dinner",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "min_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can I see items in the 20-300 dollars range?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What dishes are less than $85?, near the window",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 85,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can I get a meal within 250?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 250,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What dishes are less than $20?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Private room near table 29 for 4 dinner, chef's table experience",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 4,
+          "type": "not_price"
+        },
+        {
+          "value": 29,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What premium dishes over $90 would you recommend for 14?, business casual",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 90,
+          "type": "min_price"
+        },
+        {
+          "value": 14,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "I'd like something under 30 dollars, walk-in available",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 30,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "I want something more than USD 42, near the window",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 42,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can I get a meal within USD 75?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 75,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What dishes are less than 250?, walk-in available",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 250,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you suggest 4 items over $8?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "min_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What dishes are less than 300 dollars?, for lunch",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 300,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you suggest 1 items over $85?, date night",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 85,
+          "type": "min_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What premium dishes are over USD 28?, with a view",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 28,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Show table 1 options from 100 to $300, with vegan options",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What premium dishes are over 8 dollars?, for lunch",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get 4 orders of spring rolls?, with a view",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you suggest items $95-$120 for our group?, business casual",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 95,
+          "type": "min_price"
+        },
+        {
+          "value": 120,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "For table 18, 4 appetizers and {num_portions2} mains, date night",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 18,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can we get a table for 6?, for lunch",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 6,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "For table 9, 5 appetizers and {num_portions2} mains, with dairy-free options",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 9,
+          "type": "not_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What specialties do you have over 10?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you suggest items 40-$120 for our group?, birthday celebration",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 40,
+          "type": "min_price"
+        },
+        {
+          "value": 120,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can I get a meal within 120?, for lunch",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 120,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What dishes are less than 45?, walk-in available",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 45,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What dishes between 20 dollars-120 work for sharing?, business casual",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "min_price"
+        },
+        {
+          "value": 120,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you suggest 3 items over 32 dollars?, business casual",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "min_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Wine pairing menu 35 dollars-$70 for party of 14, special occasion",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 35,
+          "type": "min_price"
+        },
+        {
+          "value": 70,
+          "type": "max_price"
+        },
+        {
+          "value": 14,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "We need high chairs for 4 kids at table 22",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 22,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What's available below USD 8?, for tonight",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 16 needs 1 extra settings, family dinner",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 16,
+          "type": "not_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "We'll start with 3 shares for 7",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 7,
+          "type": "not_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "We'd like table 20 by the window, for tonight",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Could you seat 6 of us?, walk-in available",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 6,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "I'm looking in the 120 to USD 150 range",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 120,
+          "type": "min_price"
+        },
+        {
+          "value": 150,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Make that 2 orders",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What premium dishes over $250 would you recommend for 6?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 250,
+          "type": "min_price"
+        },
+        {
+          "value": 6,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Show table 9 options from 32 dollars to $80, with dairy-free options",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "min_price"
+        },
+        {
+          "value": 80,
+          "type": "max_price"
+        },
+        {
+          "value": 9,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Table 8 wants to see specials above $32, business casual",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "min_price"
+        },
+        {
+          "value": 8,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Private room near table 28 for 14 dinner",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 14,
+          "type": "not_price"
+        },
+        {
+          "value": 28,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can you suggest items $180-300 dollars for our group?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 180,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Show us your signature dishes above USD 40, family dinner",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 40,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Show us your signature dishes above $10, business casual",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Table 16 wants your premium pairing above 10 dollars, wine pairing",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "min_price"
+        },
+        {
+          "value": 16,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Table 14 wants to see specials above $120, family dinner",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 120,
+          "type": "min_price"
+        },
+        {
+          "value": 14,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "I'll have 5 of the pasta, for tonight",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you suggest 3 items over $38?, with halal options",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What dishes between $100-USD 150 work for sharing?, with vegetarian options",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "min_price"
+        },
+        {
+          "value": 150,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What specialties do you have over 65 dollars?, for tonight",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What options do you have between USD 40-$80?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 40,
+          "type": "min_price"
+        },
+        {
+          "value": 80,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you suggest items USD 22-25 dollars for our group?, business casual",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 22,
+          "type": "min_price"
+        },
+        {
+          "value": 25,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What can you recommend between USD 200 and 250 dollars?, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 200,
+          "type": "min_price"
+        },
+        {
+          "value": 250,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Could you do 5 premium dishes over USD 8 for 6?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "min_price"
+        },
+        {
+          "value": 6,
+          "type": "not_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "1 servings of the soup please, near the window",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Could you do 5 premium dishes over 85 for 10?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 85,
+          "type": "min_price"
+        },
+        {
+          "value": 10,
+          "type": "not_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What premium dishes are over 120 dollars?, near the window",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 120,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 13 wants your premium pairing above 10 dollars",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "min_price"
+        },
+        {
+          "value": 13,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can we get a table for 1?, for lunch",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Is item #5 under $250?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 250,
+          "type": "max_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "I'd like something under $32",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we move our 15 guests to table 3?, with halal options",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 15,
+          "type": "not_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "I'm looking in the 38 to USD 40 range, for tonight",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        },
+        {
+          "value": 40,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "I want something more than USD 150, walk-in available",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 150,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 27 needs dietary options for 10 under 150 dollars each, customized menu",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 150,
+          "type": "max_price"
+        },
+        {
+          "value": 10,
+          "type": "not_price"
+        },
+        {
+          "value": 27,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Special wine pairing for 3 courses at table 23, chef's table experience",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 23,
+          "type": "not_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Show table 2 options from 38 to $120",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        },
+        {
+          "value": 120,
+          "type": "max_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Could you do 3 premium dishes over 60 for 6?, customized menu",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 60,
+          "type": "min_price"
+        },
+        {
+          "value": 6,
+          "type": "not_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Special wine pairing for 5 courses at table 10",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "not_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Show me dishes from USD 38 to 85",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        },
+        {
+          "value": 85,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "We'll start with 2 shares for 7, business casual",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 7,
+          "type": "not_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What premium dishes are over 15?, for tonight",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 15,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Special event menu 150-200 with 4 courses, chef's table experience",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 150,
+          "type": "min_price"
+        },
+        {
+          "value": 200,
+          "type": "max_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Is item #14 under $80?, date night",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 80,
+          "type": "max_price"
+        },
+        {
+          "value": 14,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What wine pairings under 100 go with 4 courses?, chef's table experience",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "max_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can I see items in the $200-$250 range?, for tonight",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 200,
+          "type": "min_price"
+        },
+        {
+          "value": 250,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get a table for 11?, for tonight",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 11,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What's available below $150?, for lunch",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 150,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 21 needs 2 extra settings, business casual",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 21,
+          "type": "not_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What specialties do you have over $32?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Could you seat 12 of us?, near the window",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 12,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you suggest items 28-USD 75 for our group?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 28,
+          "type": "min_price"
+        },
+        {
+          "value": 75,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can we get a table for 10?",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "I'm looking in the 28 to USD 100 range",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 28,
+          "type": "min_price"
+        },
+        {
+          "value": 100,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get 2 regular and {num_portions2} spicy?, with gluten-free options",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "3 servings of the soup please, for tonight",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you show me dishes above USD 95?, near the window",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 95,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Any chef's specials over 32 for table 1?, with halal options",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "min_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What can you recommend between 200 dollars and $250?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 200,
+          "type": "min_price"
+        },
+        {
+          "value": 250,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What premium dishes are over $100?, for lunch",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "I'm looking in the 60 to $85 range, near the window",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 60,
+          "type": "min_price"
+        },
+        {
+          "value": 85,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Wine pairing menu USD 70-USD 200 for party of 2, chef's table experience",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 70,
+          "type": "min_price"
+        },
+        {
+          "value": 200,
+          "type": "max_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "For 2 people, what can we get under 55?, business casual",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 55,
+          "type": "max_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Private dining for 14 with 3 courses under USD 20, wine pairing",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "max_price"
+        },
+        {
+          "value": 14,
+          "type": "not_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can I see items in the $10-95 dollars range?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "min_price"
+        },
+        {
+          "value": 95,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Premium tasting menu above 150 dollars for table 30 of 9, wine pairing",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 150,
+          "type": "min_price"
+        },
+        {
+          "value": 9,
+          "type": "not_price"
+        },
+        {
+          "value": 30,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Table 1 wants to see specials above 180",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 180,
+          "type": "min_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you suggest items USD 20-USD 85 for our group?, birthday celebration",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "min_price"
+        },
+        {
+          "value": 85,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What options do you have between 65-150 dollars?, near the window",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "min_price"
+        },
+        {
+          "value": 150,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Chef's special course above 55 with 5 wines, special occasion",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 55,
+          "type": "min_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Show me dishes from $30 to 55, for tonight",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 30,
+          "type": "min_price"
+        },
+        {
+          "value": 55,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you show me dishes above USD 55?, with a view",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 55,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What can 9 people get between 15 dollars-$80?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 15,
+          "type": "min_price"
+        },
+        {
+          "value": 80,
+          "type": "max_price"
+        },
+        {
+          "value": 9,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "For table 20, 5 appetizers and {num_portions2} mains, date night",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "not_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can I see items in the 80 dollars-90 dollars range?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 80,
+          "type": "min_price"
+        },
+        {
+          "value": 90,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 11 wants to see specials above 55, family dinner",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 55,
+          "type": "min_price"
+        },
+        {
+          "value": 11,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Any special items above 70?, for tonight",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 70,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Could you seat 5 of us?, for lunch",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 7 wants options under USD 85, with gluten-free options",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 85,
+          "type": "max_price"
+        },
+        {
+          "value": 7,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you arrange 4 course tasting for 7 at table 11?, wine pairing",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 7,
+          "type": "not_price"
+        },
+        {
+          "value": 11,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "I'm looking in the 95 dollars to 300 range, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 95,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Any chef's specials over 10 for table 24?, birthday celebration",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "min_price"
+        },
+        {
+          "value": 24,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What premium dishes are over 60?, near the window",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 60,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "5 of #39 for table 2, family dinner",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 2,
+          "type": "not_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        },
+        {
+          "value": 39,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can I see items in the USD 38-USD 75 range?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        },
+        {
+          "value": 75,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Show me dishes from 85 to USD 300, with a view",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 85,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Could you split table 2 for 3 people?",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 3,
+          "type": "not_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you suggest 1 items over 100?, date night",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "min_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you arrange 2 course tasting for 14 at table 15?, private dining room",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 14,
+          "type": "not_price"
+        },
+        {
+          "value": 15,
+          "type": "not_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can you suggest 5 items over USD 45?, business casual",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 45,
+          "type": "min_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Table 19 wants to see specials above 40, family dinner",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 40,
+          "type": "min_price"
+        },
+        {
+          "value": 19,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What premium dishes are over $22?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 22,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Any chef's specials over 300 dollars for table 21?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 300,
+          "type": "min_price"
+        },
+        {
+          "value": 21,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "For 8 people, what can we get under USD 22?, with vegan options",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 22,
+          "type": "max_price"
+        },
+        {
+          "value": 8,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you combine 8 and {table_num2} for our group?, for lunch",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Wine pairing menu USD 28-200 for party of 14, wine pairing",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 28,
+          "type": "min_price"
+        },
+        {
+          "value": 200,
+          "type": "max_price"
+        },
+        {
+          "value": 14,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can I see items in the 180-$200 range?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 180,
+          "type": "min_price"
+        },
+        {
+          "value": 200,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What's available below USD 15?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 15,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What options do you have between 42 dollars-65 dollars?, near the window",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 42,
+          "type": "min_price"
+        },
+        {
+          "value": 65,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Any chef's specials over 38 for table 4?, family dinner",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "I'm looking in the 250 to USD 300 range, for tonight",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 250,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can I see items in the 75 dollars-200 dollars range?, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 75,
+          "type": "min_price"
+        },
+        {
+          "value": 200,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "We'd like table 7 by the window, walk-in available",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 7,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Show table 3 options from 120 to 200 dollars, birthday celebration",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 120,
+          "type": "min_price"
+        },
+        {
+          "value": 200,
+          "type": "max_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What dishes are less than $65?, walk-in available",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What premium dishes over USD 180 would you recommend for 6?, date night",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 180,
+          "type": "min_price"
+        },
+        {
+          "value": 6,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What's available below 200 dollars?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 200,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "We need 3 plates in the $85-250 dollars range",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 85,
+          "type": "min_price"
+        },
+        {
+          "value": 250,
+          "type": "max_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Could you split table 22 for 2 people?, business casual",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 2,
+          "type": "not_price"
+        },
+        {
+          "value": 22,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What can you recommend between 28 dollars and 80 dollars?, walk-in available",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 28,
+          "type": "min_price"
+        },
+        {
+          "value": 80,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What's available below USD 15?, walk-in available",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 15,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Is table 16 available?, walk-in available",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 16,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What dishes are less than $250?, with a view",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 250,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Private dining for 15 with 4 courses under 65 dollars",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "max_price"
+        },
+        {
+          "value": 15,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can you suggest 5 items over USD 32?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "min_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "I'll have 5 of the pasta",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Do you have anything under $200?, for lunch",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 200,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What dishes are less than $25?, near the window",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 25,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you suggest items 60 dollars-75 for our group?, birthday celebration",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 60,
+          "type": "min_price"
+        },
+        {
+          "value": 75,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Chef's special course above 180 with 1 wines, private dining room",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 180,
+          "type": "min_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "5 of #15 for table 28, business casual",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 28,
+          "type": "not_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        },
+        {
+          "value": 15,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can I get a meal within 20?, for tonight",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What specialties do you have over 90?, for tonight",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 90,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "5 servings of the soup please, walk-in available",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you show me dishes above 38 dollars?, walk-in available",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you combine 16 and {table_num2} for our group?, near the window",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 16,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "For table 13, 2 appetizers and {num_portions2} mains, date night",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 13,
+          "type": "not_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What can you recommend between USD 25 and 120?, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 25,
+          "type": "min_price"
+        },
+        {
+          "value": 120,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What specialties do you have over $60?, with a view",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 60,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Special event menu USD 65-70 with 5 courses",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "min_price"
+        },
+        {
+          "value": 70,
+          "type": "max_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What premium dishes are over $15?, for tonight",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 15,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "We need 5 plates in the 80 dollars-150 range",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 80,
+          "type": "min_price"
+        },
+        {
+          "value": 150,
+          "type": "max_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What dishes are less than 12 dollars?, near the window",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 12,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you suggest items 65-$70 for our group?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 65,
+          "type": "min_price"
+        },
+        {
+          "value": 70,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Any special items above 22 dollars?, walk-in available",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 22,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "For 3 people, what can we get under 28 dollars?, business casual",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 28,
+          "type": "max_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Could you seat 11 of us?, for tonight",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 11,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you show me dishes above 25?, near the window",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 25,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get 4 dishes under 100 each?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "max_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Could you seat 4 of us?, with a view",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Show table 11 options from 32 to 300 dollars, business casual",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        },
+        {
+          "value": 11,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Table 27 wants options under 250 dollars, family dinner",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 250,
+          "type": "max_price"
+        },
+        {
+          "value": 27,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What dishes are less than 95 dollars?, with a view",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 95,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Show us your signature dishes above 48, with dairy-free options",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 48,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can we get 5 regular and {num_portions2} spicy?",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "For 3 people, what can we get under 200 dollars?, date night",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 200,
+          "type": "max_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What dishes are less than USD 42?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 42,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we move our 1 guests to table 5?, date night",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 1,
+          "type": "not_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Custom menu for 2 between 25-48, customized menu",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 25,
+          "type": "min_price"
+        },
+        {
+          "value": 48,
+          "type": "max_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can you show me dishes above 42 dollars?, near the window",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 42,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Is item #42 under USD 100?, family dinner",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "max_price"
+        },
+        {
+          "value": 42,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Table 23 needs dietary options for 9 under USD 100 each, special occasion",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "max_price"
+        },
+        {
+          "value": 9,
+          "type": "not_price"
+        },
+        {
+          "value": 23,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What premium dishes over $45 would you recommend for 11?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 45,
+          "type": "min_price"
+        },
+        {
+          "value": 11,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Show me dishes from 200 dollars to USD 300, near the window",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 200,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Private room near table 12 for 14 dinner, chef's table experience",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 14,
+          "type": "not_price"
+        },
+        {
+          "value": 12,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "For table 1, 4 appetizers and {num_portions2} mains, with dairy-free options",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 1,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Any chef's specials over USD 100 for table 17?, business casual",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "min_price"
+        },
+        {
+          "value": 17,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What specialties do you have over 75 dollars?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 75,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Tasting menu between 12 dollars-USD 55 for 7 at table 7, special occasion",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 12,
+          "type": "min_price"
+        },
+        {
+          "value": 55,
+          "type": "max_price"
+        },
+        {
+          "value": 7,
+          "type": "not_price"
+        },
+        {
+          "value": 7,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can we get 3 regular and {num_portions2} spicy?, birthday celebration",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can we get 1 regular and {num_portions2} spicy?",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can I get a meal within USD 85?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 85,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can I see items in the $18-42 range?, near the window",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 18,
+          "type": "min_price"
+        },
+        {
+          "value": 42,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you arrange 2 course tasting menu under $80 for 4 people?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 80,
+          "type": "max_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Could you seat 10 of us?, with a view",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "We'll start with 4 shares for 14, date night",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 14,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you combine 23 and {table_num2} for our group?, near the window",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 23,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you combine 2 and {table_num2} for our group?, near the window",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can you combine tables for 6 near table 17?",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 6,
+          "type": "not_price"
+        },
+        {
+          "value": 17,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Wine pairing menu $42-80 for party of 3, private dining room",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 42,
+          "type": "min_price"
+        },
+        {
+          "value": 80,
+          "type": "max_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What options do you have between $38-USD 65?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "min_price"
+        },
+        {
+          "value": 65,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "I want something more than 120 dollars, near the window",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 120,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Special wine pairing for 4 courses at table 17, special occasion",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 17,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "What can 7 people get between $45-USD 90?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 45,
+          "type": "min_price"
+        },
+        {
+          "value": 90,
+          "type": "max_price"
+        },
+        {
+          "value": 7,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you combine tables for 7 near table 19?, with dairy-free options",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 7,
+          "type": "not_price"
+        },
+        {
+          "value": 19,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "For our party of 11 at table 24, what sharing platters are under 55?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 55,
+          "type": "max_price"
+        },
+        {
+          "value": 11,
+          "type": "not_price"
+        },
+        {
+          "value": 24,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Special wine pairing for 3 courses at table 15, chef's table experience",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 15,
+          "type": "not_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Show us your signature dishes above USD 8",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "I'm looking in the $48 to 300 range, with a view",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 48,
+          "type": "min_price"
+        },
+        {
+          "value": 300,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What can you recommend between 70 and USD 75?, for tonight",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 70,
+          "type": "min_price"
+        },
+        {
+          "value": 75,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What options do you have between 28 dollars-150 dollars?, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 28,
+          "type": "min_price"
+        },
+        {
+          "value": 150,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get 4 dishes under USD 42 each?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 42,
+          "type": "max_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Wine pairing menu 95-USD 180 for party of 14, private dining room",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 95,
+          "type": "min_price"
+        },
+        {
+          "value": 180,
+          "type": "max_price"
+        },
+        {
+          "value": 14,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "I'd like something under $150, for lunch",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 150,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "I'd like something under 75, walk-in available",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 75,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What can 12 people get between 40-USD 120?, family dinner",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 40,
+          "type": "min_price"
+        },
+        {
+          "value": 120,
+          "type": "max_price"
+        },
+        {
+          "value": 12,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What premium dishes over 40 dollars would you recommend for 3?, business casual",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 40,
+          "type": "min_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Show me dishes from 12 to 65, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 12,
+          "type": "min_price"
+        },
+        {
+          "value": 65,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Any chef's specials over 60 dollars for table 29?, with vegetarian options",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 60,
+          "type": "min_price"
+        },
+        {
+          "value": 29,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What dishes are less than $200?, near the window",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 200,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What specialties do you have over $95?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 95,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Could you do 2 premium dishes over $90 for 3?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 90,
+          "type": "min_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "4 of #18 for table 16",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 16,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        },
+        {
+          "value": 18,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "What wine pairings under USD 8 go with 2 courses?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "max_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Table 9 wants your premium pairing above 32, chef's table experience",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 32,
+          "type": "min_price"
+        },
+        {
+          "value": 9,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can I see items in the 95 dollars-$100 range?",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 95,
+          "type": "min_price"
+        },
+        {
+          "value": 100,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Is item #47 under 85 dollars?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 85,
+          "type": "max_price"
+        },
+        {
+          "value": 47,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Chef's table for 1 with 4 custom courses, special occasion",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 1,
+          "type": "not_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Special event menu USD 120-USD 180 with 3 courses, wine pairing",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 120,
+          "type": "min_price"
+        },
+        {
+          "value": 180,
+          "type": "max_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Table 1 wants to see specials above $35, business casual",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 35,
+          "type": "min_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "We need 3 more plates, near the window",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can I see items in the $120-USD 250 range?, with a view",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 120,
+          "type": "min_price"
+        },
+        {
+          "value": 250,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Can we get 5 dishes under 42 dollars each?",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 42,
+          "type": "max_price"
+        },
+        {
+          "value": 5,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Custom menu for 1 between 85-$95, special occasion",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 85,
+          "type": "min_price"
+        },
+        {
+          "value": 95,
+          "type": "max_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "input_text": "Can you show me dishes above USD 28?",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 28,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "I'd like something under 90, near the window",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 90,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "We need 3 plates in the 8 dollars-USD 180 range, with dairy-free options",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "min_price"
+        },
+        {
+          "value": 180,
+          "type": "max_price"
+        },
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can you suggest 4 items over USD 10?, date night",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 10,
+          "type": "min_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can we get 2 orders of spring rolls?",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What dishes are less than $20?, with a view",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 20,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Any chef's specials over USD 40 for table 12?, with gluten-free options",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 40,
+          "type": "min_price"
+        },
+        {
+          "value": 12,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Could you seat 1 of us?",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Table 11 needs 1 extra settings",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 11,
+          "type": "not_price"
+        },
+        {
+          "value": 1,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Do you have anything under USD 12?, with a view",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 12,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What premium dishes over $48 would you recommend for 7?, family dinner",
+      "context": "min_limit",
+      "numbers": [
+        {
+          "value": 48,
+          "type": "min_price"
+        },
+        {
+          "value": 7,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Show table 29 options from 8 to $15, with halal options",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "min_price"
+        },
+        {
+          "value": 15,
+          "type": "max_price"
+        },
+        {
+          "value": 29,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "I'd like something under 25, near the window",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 25,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Make that 3 orders, near the window",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 3,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "We'd like table 16 by the window, with a view",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 16,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "What's available below 100?, walk-in available",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 100,
+          "type": "min_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Show me dishes from 50 dollars to $250, for lunch",
+      "context": "price_range",
+      "numbers": [
+        {
+          "value": 50,
+          "type": "min_price"
+        },
+        {
+          "value": 250,
+          "type": "max_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "Is table 8 available?, walk-in available",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 8,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    },
+    {
+      "input_text": "We need high chairs for 2 kids at table 7, business casual",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 7,
+          "type": "not_price"
+        },
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "Can we get 4 dishes under 38 dollars each?, birthday celebration",
+      "context": "max_limit",
+      "numbers": [
+        {
+          "value": 38,
+          "type": "max_price"
+        },
+        {
+          "value": 4,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "input_text": "2 servings of the soup please, for lunch",
+      "context": "no_price_limit",
+      "numbers": [
+        {
+          "value": 2,
+          "type": "not_price"
+        }
+      ],
+      "difficulty": "beginner"
+    }
+  ],
+  "statistics": {
+    "total": 500,
+    "by_difficulty": {
+      "advanced": 100,
+      "beginner": 225,
+      "intermediate": 175
+    },
+    "by_context": {
+      "price_range": 132,
+      "no_price_limit": 126,
+      "max_limit": 113,
+      "min_limit": 129
+    },
+    "by_number_type": {
+      "min_price": 290,
+      "max_price": 216,
+      "not_price": 413
+    },
+    "avg_numbers_per_example": 1.838,
+    "template_distribution": {
+      "with_table_numbers": 126,
+      "with_party_size": 14,
+      "with_portions": 0,
+      "with_menu_items": 67,
+      "with_time": 0
+    }
+  }
+}

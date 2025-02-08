@@ -1,0 +1,4118 @@
+{
+  "data": [
+    {
+      "input_text": "Help me find a sweet dish, but it should be vegetarian, and for appetizer",
+      "labels": {
+        "taste": [
+          {
+            "label": "sweet",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "vegetarian",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "appetizer",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm looking for anything except chinese, but no chicken",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Chinese",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "chicken",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Could you recommend something that's not too sour, but but not pescatarian",
+      "labels": {
+        "taste": [
+          {
+            "label": "sour",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "pescatarian",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Suggest a soup. Also, italian style, and that has beef",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "soup",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Italian",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "beef",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'm looking for nothing too salty, but but not gluten-free",
+      "labels": {
+        "taste": [
+          {
+            "label": "salty",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "gluten-free",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm looking for salad and japanese style. Also, with fish in it",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "salad",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Japanese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "fish",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'm looking for something that's not too bitter, but but not dairy-free and but not a main-course",
+      "labels": {
+        "taste": [
+          {
+            "label": "bitter",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "dairy-free",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "main-course",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for indian food",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Indian",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm looking for a dish without pork",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "pork",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Can you suggest something umami and make sure it's kosher, but as a side-dish",
+      "labels": {
+        "taste": [
+          {
+            "label": "umami",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "kosher",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "side-dish",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for anything except mexican, and no shrimp. Also, not very spicy",
+      "labels": {
+        "taste": [
+          {
+            "label": "spicy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Mexican",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "shrimp",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'm looking for halal food",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "halal",
+            "sentiment": 1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I need something other than dessert. Also, just not thai",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "dessert",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Thai",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Could you recommend something with tofu. Also, that's crispy, and it should be keto",
+      "labels": {
+        "taste": [
+          {
+            "label": "crispy",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "keto",
+            "sentiment": 1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "tofu",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'm looking for something other than beverage",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "beverage",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I want something other than mediterranean. Also, no rice and not very creamy",
+      "labels": {
+        "taste": [
+          {
+            "label": "creamy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Mediterranean",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "rice",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I need paleo food, but as a small-plate",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "paleo",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "small-plate",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for a korean place",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Korean",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Show me something without noodles",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "noodles",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Can you suggest a smoky dish",
+      "labels": {
+        "taste": [
+          {
+            "label": "smoky",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Suggest something that's not mediterranean, and not as a cheese-course",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "mediterranean",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "cheese-course",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Show me french food",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "French",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'd like a dish with pasta, but that's tangy",
+      "labels": {
+        "taste": [
+          {
+            "label": "tangy",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "pasta",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'd like non-low-fodmap food. Also, but not a fish-course",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "low-fodmap",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "fish-course",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for some vietnamese food, but that has tomatoes and and sweet",
+      "labels": {
+        "taste": [
+          {
+            "label": "sweet",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Vietnamese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "tomatoes",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I need non-raw food. Also, but not a palate-cleanser, but just not chinese",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "raw",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "palate-cleanser",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Chinese",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I want a dish with mushrooms",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "mushrooms",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Could you recommend something that's not too sour",
+      "labels": {
+        "taste": [
+          {
+            "label": "sour",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm looking for vegetarian food",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "vegetarian",
+            "sentiment": 1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I want something other than amuse-bouche",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "amuse-bouche",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Could you recommend italian food, but with onions in it",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Italian",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "onions",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Could you recommend something that's not too salty. Also, nothing pescatarian",
+      "labels": {
+        "taste": [
+          {
+            "label": "salty",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "pescatarian",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for bread-service, and japanese style",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "bread-service",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Japanese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Could you recommend a dish without garlic. Also, but not too bitter and nothing gluten-free",
+      "labels": {
+        "taste": [
+          {
+            "label": "bitter",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "gluten-free",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "garlic",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Help me find chef-special",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "chef-special",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'd like some indian food. Also, with ginger in it, and that's umami",
+      "labels": {
+        "taste": [
+          {
+            "label": "umami",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Indian",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "ginger",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I need non-dairy-free food",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "dairy-free",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Can you suggest anything except digestif and just not mexican",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "digestif",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Mexican",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for a dish with cheese",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "cheese",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'd like something that's not too spicy",
+      "labels": {
+        "taste": [
+          {
+            "label": "spicy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I need kosher food, and for appetizer, and from a thai restaurant",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "kosher",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "appetizer",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Thai",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Could you recommend something without eggs and but not too crispy",
+      "labels": {
+        "taste": [
+          {
+            "label": "crispy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "eggs",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'd like non-halal food",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "halal",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'd like a soup. Also, from a mediterranean restaurant, and with chicken in it",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "soup",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Mediterranean",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "chicken",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I want nothing too creamy",
+      "labels": {
+        "taste": [
+          {
+            "label": "creamy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I need something that's not keto, and but not a salad",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "keto",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "salad",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm looking for korean food",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Korean",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for a dish without beef. Also, but not too smoky",
+      "labels": {
+        "taste": [
+          {
+            "label": "smoky",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "beef",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I want paleo options and as a main-course",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "paleo",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "main-course",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I want anything except french and no fish. Also, but not too tangy",
+      "labels": {
+        "taste": [
+          {
+            "label": "tangy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "French",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "fish",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I need something mediterranean, and as a side-dish",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "mediterranean",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "side-dish",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for vietnamese food, and with pork in it, but and sweet",
+      "labels": {
+        "taste": [
+          {
+            "label": "sweet",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Vietnamese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "pork",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'd like non-low-fodmap food",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "low-fodmap",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Can you suggest something other than dessert",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "dessert",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Could you recommend something other than chinese, but without any shrimp",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Chinese",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "shrimp",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Can you suggest something sour, but make sure it's raw",
+      "labels": {
+        "taste": [
+          {
+            "label": "sour",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "raw",
+            "sentiment": 1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm looking for anything except beverage",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "beverage",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm looking for some italian food and that has tofu, but that's salty",
+      "labels": {
+        "taste": [
+          {
+            "label": "salty",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Italian",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "tofu",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Show me something that's not vegetarian. Also, not as a small-plate",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "vegetarian",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "small-plate",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm looking for anything except japanese",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Japanese",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Suggest a dish with rice, but and bitter, but make sure it's pescatarian",
+      "labels": {
+        "taste": [
+          {
+            "label": "bitter",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "pescatarian",
+            "sentiment": 1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "rice",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'm in the mood for something other than cheese-course, but but not indian and without any noodles",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "cheese-course",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Indian",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "noodles",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Show me something umami, and make sure it's gluten-free, and as a fish-course",
+      "labels": {
+        "taste": [
+          {
+            "label": "umami",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "gluten-free",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "fish-course",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Show me something other than mexican",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Mexican",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm looking for something without pasta",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "pasta",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'd like nothing too spicy, and but not dairy-free. Also, not as a palate-cleanser",
+      "labels": {
+        "taste": [
+          {
+            "label": "spicy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "dairy-free",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "palate-cleanser",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Suggest a thai place",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Thai",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm looking for something with tomatoes",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "tomatoes",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Show me something crispy",
+      "labels": {
+        "taste": [
+          {
+            "label": "crispy",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Help me find something that's not kosher and not as a amuse-bouche",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "kosher",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "amuse-bouche",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'd like some mediterranean food",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Mediterranean",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I want something with mushrooms",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "mushrooms",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Can you suggest nothing too creamy and but not halal",
+      "labels": {
+        "taste": [
+          {
+            "label": "creamy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "halal",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for a bread-service and from a korean restaurant, but with onions in it",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "bread-service",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Korean",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "onions",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I want nothing too smoky and nothing keto",
+      "labels": {
+        "taste": [
+          {
+            "label": "smoky",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "keto",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Show me chef-special, but from a french restaurant",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "chef-special",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "French",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Help me find something without garlic. Also, but not too tangy, but nothing paleo",
+      "labels": {
+        "taste": [
+          {
+            "label": "tangy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "paleo",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "garlic",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Show me a digestif. Also, vietnamese style, but that has ginger",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "digestif",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Vietnamese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "ginger",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Suggest nothing too sweet, but nothing mediterranean",
+      "labels": {
+        "taste": [
+          {
+            "label": "sweet",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "mediterranean",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I want appetizer and chinese style. Also, that has cheese",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "appetizer",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Chinese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "cheese",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Can you suggest something that's not too sour, but but not low-fodmap",
+      "labels": {
+        "taste": [
+          {
+            "label": "sour",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "low-fodmap",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Show me anything except soup",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "soup",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I want a italian place, but that has eggs",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Italian",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "eggs",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'd like something that's not too salty",
+      "labels": {
+        "taste": [
+          {
+            "label": "salty",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Suggest non-raw food. Also, but not a salad",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "raw",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "salad",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I want a japanese place, and that has chicken",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Japanese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "chicken",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Help me find nothing too bitter",
+      "labels": {
+        "taste": [
+          {
+            "label": "bitter",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Suggest something vegetarian, and for main-course and from a indian restaurant",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "vegetarian",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "main-course",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Indian",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'd like something without beef",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "beef",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'm in the mood for nothing too umami, but but not pescatarian",
+      "labels": {
+        "taste": [
+          {
+            "label": "umami",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "pescatarian",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for a side-dish and from a mexican restaurant and with fish in it",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "side-dish",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Mexican",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "fish",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'm in the mood for something that's not too spicy and but not gluten-free",
+      "labels": {
+        "taste": [
+          {
+            "label": "spicy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "gluten-free",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Show me anything except dessert, and just not thai",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "dessert",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Thai",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for something with pork and that's crispy, but make sure it's dairy-free",
+      "labels": {
+        "taste": [
+          {
+            "label": "crispy",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "dairy-free",
+            "sentiment": 1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "pork",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Show me something other than beverage, and just not mediterranean",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "beverage",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Mediterranean",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for a dish with shrimp and and creamy, but it should be kosher",
+      "labels": {
+        "taste": [
+          {
+            "label": "creamy",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "kosher",
+            "sentiment": 1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "shrimp",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Suggest anything except small-plate",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "small-plate",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Suggest anything except korean. Also, no tofu and but not too smoky",
+      "labels": {
+        "taste": [
+          {
+            "label": "smoky",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Korean",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "tofu",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Help me find halal options. Also, as a cheese-course",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "halal",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "cheese-course",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for something other than french and no rice and not very tangy",
+      "labels": {
+        "taste": [
+          {
+            "label": "tangy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "French",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "rice",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I want something keto. Also, as a fish-course and from a vietnamese restaurant",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "keto",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "fish-course",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Vietnamese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Can you suggest something without noodles",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "noodles",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I want something sweet",
+      "labels": {
+        "taste": [
+          {
+            "label": "sweet",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Could you recommend something that's not paleo",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "paleo",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'd like a palate-cleanser",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "palate-cleanser",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Could you recommend anything except chinese. Also, without any pasta",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Chinese",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "pasta",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Show me a sour dish",
+      "labels": {
+        "taste": [
+          {
+            "label": "sour",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Help me find mediterranean food and for amuse-bouche. Also, italian style",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "mediterranean",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "amuse-bouche",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Italian",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for something without tomatoes",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "tomatoes",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Show me something that's not too salty and but not low-fodmap",
+      "labels": {
+        "taste": [
+          {
+            "label": "salty",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "low-fodmap",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Could you recommend bread-service and japanese style, but that has mushrooms",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "bread-service",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Japanese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "mushrooms",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Could you recommend something that's not too bitter, but but not raw, and not as a chef-special",
+      "labels": {
+        "taste": [
+          {
+            "label": "bitter",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "raw",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "chef-special",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Could you recommend indian food",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Indian",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Help me find a dish without onions and not very umami",
+      "labels": {
+        "taste": [
+          {
+            "label": "umami",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "onions",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Suggest vegetarian food. Also, as a digestif",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "vegetarian",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "digestif",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Show me something other than mexican",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Mexican",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Help me find a dish with garlic. Also, that's spicy. Also, make sure it's pescatarian",
+      "labels": {
+        "taste": [
+          {
+            "label": "spicy",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "pescatarian",
+            "sentiment": 1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "garlic",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I want something other than appetizer, but just not thai",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "appetizer",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Thai",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I want a dish without ginger, but but not too crispy",
+      "labels": {
+        "taste": [
+          {
+            "label": "crispy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "ginger",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Could you recommend gluten-free options, but for soup, and mediterranean style",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "gluten-free",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "soup",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Mediterranean",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm looking for a dish without cheese",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "cheese",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'd like nothing too creamy and nothing dairy-free. Also, but not a salad",
+      "labels": {
+        "taste": [
+          {
+            "label": "creamy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "dairy-free",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "salad",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Help me find some korean food",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Korean",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Can you suggest something with eggs",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "eggs",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Help me find something smoky, and make sure it's kosher, and for main-course",
+      "labels": {
+        "taste": [
+          {
+            "label": "smoky",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "kosher",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "main-course",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Could you recommend anything except french, but no chicken",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "French",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "chicken",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I want nothing too tangy and nothing halal, and but not a side-dish",
+      "labels": {
+        "taste": [
+          {
+            "label": "tangy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "halal",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "side-dish",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'd like a vietnamese place, and with beef in it",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Vietnamese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "beef",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Could you recommend something sweet and make sure it's keto, but as a dessert",
+      "labels": {
+        "taste": [
+          {
+            "label": "sweet",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "keto",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "dessert",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'd like anything except chinese",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Chinese",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I need a dish without fish and not very sour",
+      "labels": {
+        "taste": [
+          {
+            "label": "sour",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "fish",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'd like something paleo and as a beverage",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "paleo",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "beverage",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Help me find something other than italian. Also, without any pork and not very salty",
+      "labels": {
+        "taste": [
+          {
+            "label": "salty",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Italian",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "pork",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Suggest mediterranean food",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "mediterranean",
+            "sentiment": 1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for small-plate and japanese style. Also, with shrimp in it",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "small-plate",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Japanese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "shrimp",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Help me find something that's not too bitter",
+      "labels": {
+        "taste": [
+          {
+            "label": "bitter",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Help me find non-low-fodmap food. Also, but not a cheese-course",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "low-fodmap",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "cheese-course",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm looking for a indian place and with tofu in it",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Indian",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "tofu",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'm in the mood for nothing too umami",
+      "labels": {
+        "taste": [
+          {
+            "label": "umami",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Suggest something that's not raw",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "raw",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I need fish-course, and from a mexican restaurant. Also, with rice in it",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "fish-course",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Mexican",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "rice",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I want something that's not too spicy, but but not vegetarian",
+      "labels": {
+        "taste": [
+          {
+            "label": "spicy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "vegetarian",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm looking for something other than palate-cleanser and but not thai",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "palate-cleanser",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Thai",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I want a dish with noodles, but and crispy and make sure it's pescatarian",
+      "labels": {
+        "taste": [
+          {
+            "label": "crispy",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "pescatarian",
+            "sentiment": 1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "noodles",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Show me something other than amuse-bouche, and but not mediterranean",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "amuse-bouche",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Mediterranean",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Can you suggest something with pasta",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "pasta",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Show me something that's not too creamy. Also, nothing gluten-free",
+      "labels": {
+        "taste": [
+          {
+            "label": "creamy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "gluten-free",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I need bread-service",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "bread-service",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Could you recommend a korean place. Also, that has tomatoes and and smoky",
+      "labels": {
+        "taste": [
+          {
+            "label": "smoky",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Korean",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "tomatoes",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'm in the mood for something that's not dairy-free and not as a chef-special",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "dairy-free",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "chef-special",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm looking for anything except french",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "French",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I want something with mushrooms and that's tangy and make sure it's kosher",
+      "labels": {
+        "taste": [
+          {
+            "label": "tangy",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "kosher",
+            "sentiment": 1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "mushrooms",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I want something other than digestif",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "digestif",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I need anything except vietnamese, and no onions",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Vietnamese",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "onions",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Help me find something sweet, and it should be halal and as a appetizer",
+      "labels": {
+        "taste": [
+          {
+            "label": "sweet",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "halal",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "appetizer",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Help me find something other than chinese and no garlic",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Chinese",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "garlic",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Could you recommend nothing too sour. Also, but not keto",
+      "labels": {
+        "taste": [
+          {
+            "label": "sour",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "keto",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'd like a soup",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "soup",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Help me find some italian food",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Italian",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for something without ginger and but not too salty, and nothing paleo",
+      "labels": {
+        "taste": [
+          {
+            "label": "salty",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "paleo",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "ginger",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Show me salad. Also, japanese style, but with cheese in it",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "salad",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Japanese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "cheese",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Can you suggest nothing too bitter. Also, nothing mediterranean, and but not a main-course",
+      "labels": {
+        "taste": [
+          {
+            "label": "bitter",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "mediterranean",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "main-course",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Can you suggest indian food, and that has eggs, but and umami",
+      "labels": {
+        "taste": [
+          {
+            "label": "umami",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Indian",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "eggs",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Show me something that's not low-fodmap",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "low-fodmap",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Suggest side-dish. Also, mexican style",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "side-dish",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Mexican",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I want something without chicken and not very spicy",
+      "labels": {
+        "taste": [
+          {
+            "label": "spicy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "chicken",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'm looking for something raw, and for dessert",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "raw",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "dessert",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Could you recommend something other than thai. Also, no beef, but but not too crispy",
+      "labels": {
+        "taste": [
+          {
+            "label": "crispy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Thai",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "beef",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Can you suggest something vegetarian, and as a beverage, but mediterranean style",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "vegetarian",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "beverage",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Mediterranean",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I want something without fish and not very creamy. Also, but not pescatarian",
+      "labels": {
+        "taste": [
+          {
+            "label": "creamy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "pescatarian",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "fish",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I want small-plate, but korean style",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "small-plate",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Korean",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Help me find a dish without pork. Also, but not too smoky",
+      "labels": {
+        "taste": [
+          {
+            "label": "smoky",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "pork",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I want something gluten-free, and for cheese-course",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "gluten-free",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "cheese-course",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for anything except french and no shrimp, but but not too tangy",
+      "labels": {
+        "taste": [
+          {
+            "label": "tangy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "French",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "shrimp",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'd like dairy-free options",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "dairy-free",
+            "sentiment": 1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Show me fish-course, and from a vietnamese restaurant, but with tofu in it",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "fish-course",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Vietnamese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "tofu",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'm in the mood for something that's not too sweet, and but not kosher",
+      "labels": {
+        "taste": [
+          {
+            "label": "sweet",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "kosher",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for a palate-cleanser. Also, from a chinese restaurant and that has rice",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "palate-cleanser",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Chinese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "rice",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Show me something that's not too sour and nothing halal",
+      "labels": {
+        "taste": [
+          {
+            "label": "sour",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "halal",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I need anything except amuse-bouche",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "amuse-bouche",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Help me find a italian place, but that has noodles",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Italian",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "noodles",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I'd like something that's not too salty and nothing keto, and but not a bread-service",
+      "labels": {
+        "taste": [
+          {
+            "label": "salty",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "keto",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "bread-service",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Can you suggest japanese food, but that has pasta",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Japanese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "pasta",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Could you recommend nothing too bitter, but nothing paleo, but but not a chef-special",
+      "labels": {
+        "taste": [
+          {
+            "label": "bitter",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "paleo",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "chef-special",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I'm in the mood for a indian place. Also, with tomatoes in it, and that's umami",
+      "labels": {
+        "taste": [
+          {
+            "label": "umami",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "Indian",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "tomatoes",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I want something that's not mediterranean, and not as a digestif and just not mexican",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "mediterranean",
+            "sentiment": -1
+          }
+        ],
+        "course": [
+          {
+            "label": "digestif",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Mexican",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Help me find something with mushrooms",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "mushrooms",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Help me find something spicy",
+      "labels": {
+        "taste": [
+          {
+            "label": "spicy",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I need something low-fodmap. Also, for appetizer and from a thai restaurant",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "low-fodmap",
+            "sentiment": 1
+          }
+        ],
+        "course": [
+          {
+            "label": "appetizer",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Thai",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Can you suggest a dish without onions and not very crispy and nothing raw",
+      "labels": {
+        "taste": [
+          {
+            "label": "crispy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "raw",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "onions",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Show me soup, and from a mediterranean restaurant",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "soup",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Mediterranean",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Suggest a dish without garlic, and not very creamy",
+      "labels": {
+        "taste": [
+          {
+            "label": "creamy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "garlic",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "I need something vegetarian",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "vegetarian",
+            "sentiment": 1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Suggest something other than salad, and just not korean",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "salad",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Korean",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I want something with ginger and that's smoky, but it should be pescatarian",
+      "labels": {
+        "taste": [
+          {
+            "label": "smoky",
+            "sentiment": 1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "pescatarian",
+            "sentiment": 1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "ginger",
+            "sentiment": 1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Suggest something other than main-course",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "main-course",
+            "sentiment": -1
+          }
+        ],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "I need something other than french, but no cheese and not very tangy",
+      "labels": {
+        "taste": [
+          {
+            "label": "tangy",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [],
+        "course": [],
+        "cuisine": [
+          {
+            "label": "French",
+            "sentiment": -1
+          }
+        ],
+        "ingredient": [
+          {
+            "label": "cheese",
+            "sentiment": -1
+          }
+        ]
+      }
+    },
+    {
+      "input_text": "Show me gluten-free options",
+      "labels": {
+        "taste": [],
+        "dietary": [
+          {
+            "label": "gluten-free",
+            "sentiment": 1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Could you recommend side-dish. Also, vietnamese style",
+      "labels": {
+        "taste": [],
+        "dietary": [],
+        "course": [
+          {
+            "label": "side-dish",
+            "sentiment": 1
+          }
+        ],
+        "cuisine": [
+          {
+            "label": "Vietnamese",
+            "sentiment": 1
+          }
+        ],
+        "ingredient": []
+      }
+    },
+    {
+      "input_text": "Can you suggest a dish without eggs. Also, not very sweet, and but not dairy-free",
+      "labels": {
+        "taste": [
+          {
+            "label": "sweet",
+            "sentiment": -1
+          }
+        ],
+        "dietary": [
+          {
+            "label": "dairy-free",
+            "sentiment": -1
+          }
+        ],
+        "course": [],
+        "cuisine": [],
+        "ingredient": [
+          {
+            "label": "eggs",
+            "sentiment": -1
+          }
+        ]
+      }
+    }
+  ],
+  "statistics": {
+    "total_samples": 200,
+    "category_distribution": {
+      "taste": {
+        "sweet": 9,
+        "sour": 8,
+        "salty": 8,
+        "bitter": 8,
+        "umami": 8,
+        "spicy": 8,
+        "crispy": 8,
+        "creamy": 8,
+        "smoky": 8,
+        "tangy": 8
+      },
+      "dietary": {
+        "vegetarian": 8,
+        "pescatarian": 8,
+        "gluten-free": 8,
+        "dairy-free": 8,
+        "kosher": 7,
+        "halal": 7,
+        "keto": 7,
+        "paleo": 7,
+        "mediterranean": 7,
+        "low-fodmap": 7,
+        "raw": 7
+      },
+      "course": {
+        "appetizer": 6,
+        "soup": 6,
+        "salad": 6,
+        "main-course": 6,
+        "side-dish": 6,
+        "dessert": 5,
+        "beverage": 5,
+        "small-plate": 5,
+        "cheese-course": 5,
+        "fish-course": 5,
+        "palate-cleanser": 5,
+        "amuse-bouche": 5,
+        "bread-service": 5,
+        "chef-special": 5,
+        "digestif": 5
+      },
+      "cuisine": {
+        "Chinese": 8,
+        "Italian": 8,
+        "Japanese": 8,
+        "Indian": 8,
+        "Mexican": 8,
+        "Thai": 8,
+        "Mediterranean": 8,
+        "Korean": 8,
+        "French": 8,
+        "Vietnamese": 8
+      },
+      "ingredient": {
+        "chicken": 5,
+        "beef": 5,
+        "fish": 5,
+        "pork": 5,
+        "shrimp": 5,
+        "tofu": 5,
+        "rice": 5,
+        "noodles": 5,
+        "pasta": 5,
+        "tomatoes": 5,
+        "mushrooms": 5,
+        "onions": 5,
+        "garlic": 5,
+        "ginger": 5,
+        "cheese": 5,
+        "eggs": 5
+      }
+    },
+    "sentiment_distribution": {
+      "1": 200,
+      "-1": 202
+    },
+    "combination_patterns": {
+      "course+dietary+taste": 14,
+      "cuisine+ingredient": 13,
+      "dietary+taste": 16,
+      "course+cuisine+ingredient": 14,
+      "cuisine": 14,
+      "ingredient": 14,
+      "cuisine+ingredient+taste": 16,
+      "dietary": 12,
+      "course+cuisine": 14,
+      "dietary+ingredient+taste": 14,
+      "course": 13,
+      "course+dietary": 16,
+      "taste": 12,
+      "ingredient+taste": 9,
+      "course+cuisine+dietary": 9
+    },
+    "average_preferences_per_query": 1.0
+  },
+  "metadata": {
+    "generated_at": "2025-01-14T02:06:27.886900",
+    "total_samples": 200,
+    "version": "1.0"
+  }
+}

@@ -1,10 +1,10 @@
-name: "intent_classifier"
+name: "price_classifier"
 backend: "python"
-max_batch_size: 0
+max_batch_size: 8
 
 input [
   {
-    name: "TEXT"
+    name: "text"
     data_type: TYPE_STRING
     dims: [ 1 ]
   }
@@ -12,14 +12,9 @@ input [
 
 output [
   {
-    name: "INTENTS"
+    name: "price_classifications"
     data_type: TYPE_STRING
-    dims: [ -1 ]
-  },
-  {
-    name: "PROBABILITIES"
-    data_type: TYPE_FP32
-    dims: [ -1 ]
+    dims: [ 1 ]
   }
 ]
 
